@@ -1,0 +1,92 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Bleu clair pour le fond */
+    color: #333; /* Gris foncé pour le texte */
+}
+
+/* En-tête */
+header {
+    background-color: #1e90ff; /* Bleu surf */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    background: #1e90ff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Vidéo */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #1e90ff;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Pied de page */
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
